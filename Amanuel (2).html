@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanuel</title>
+    <style>
+    
+        *{
+            margin: 0px;
+        }
+        ul{
+            display:flex;
+            flex-direction:row;
+            align-items:flex-end;
+            justify-content:flex-end;
+            border-radius:50px;
+            padding:200px;
+            column-gap:20px;
+            row-gap:30px;
+            font-size:1.5em;
+            color:white;
+            background-color:rgb(112, 7, 7);
+            padding:20px;
+            margin:0px;
+            width: 100%;
+            position:fixed;
+            right:1px;
+            
+         
+        }
+        body{
+            margin:0px;
+        }
+        ul li{
+            display:inline;
+            list-style-type:none;
+
+        }
+        ul li:hover{
+            color:white;
+            cursor: pointer;
+        }
+        #h11{
+            text-align:center;
+            color:blue;
+            font-size: 3em;
+            padding: 50px;
+
+        }
+        #section1{
+            background-color:gray;
+            height:100vh;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+        #section2{
+            background-color:purple;
+            height:95vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color:blue;
+            justify-content: center;
+        }
+        #section3{
+            background-color:teal;
+            height:95vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            column-gap: 120PX;
+            color:blue;
+            row-gap: 40px;
+            justify-content: center;
+        }
+        #section4{
+            background-color:black;
+            height:95vh;
+             display: flex;
+            align-items: center;
+            flex-direction: column;
+            column-gap: 120PX;
+            row-gap: 40px;
+            color:blue;
+            justify-content: center;
+        }
+        #section5{
+            background-color:orange;
+            height:95vh;
+             display: flex;
+            align-items: center;
+            flex-direction: column;
+            column-gap: 120PX;
+            row-gap: 40px;
+            color:blue;
+            justify-content: center;
+        }
+        #GRADE11H1{
+            color: white;
+            font-size: 1.1em;
+            animation: amananimation 3s infinite steps(30) alternate;
+            overflow: hidden;
+            height: 20px;
+            
+
+        }
+        #section1 button{
+            color: white;
+            background-color: blue;
+            border: 0px ;
+            margin-top: 80px;
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        #section1 button:hover{
+            cursor: pointer;
+            background-color: gray;
+            border: 2px solid blue;
+        }
+        @keyframes amananimation{
+            from{
+                width: 100%;
+                border-right: 2px solid blue;
+
+
+            }
+            to{
+                width: 0%;
+                border-right: 2px solid blue;
+            }
+        }
+        .scrolled{
+            background-color: gray;
+            color: blue;
+        }
+        #section2 div img{
+            height: 400px;
+            width: 300px;
+        }
+        #section2 div{
+            display: flex;
+            flex-direction: row;
+            width: 60%;
+            padding: 20px;
+        }
+        #section2 div p{
+            align-self: flex-end;
+            margin: 15px;
+            font-size: 1.5em;
+        }
+        #section3 div{
+            align-self: flex-start;
+            padding:80px ;
+        }
+        #section3 div p{
+            font-size: 1.5em ;
+            color:white;
+        }
+        #section5 div{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 10px;
+            align-self: flex-start;
+            margin: 20px;
+            color:white;
+        }
+        #section5 div input{
+            height: 40px;
+            width: 500px;
+        }
+        #section5 div button{
+            align-self: flex-start;
+            height:40px ;
+            width: 300px;
+            background-color: blue;
+            color: white;
+            font-size: 1.3em;
+            border:none;
+        }
+        #section5 div button:hover{
+            background-color: yellow;
+            border: blue solid2px;
+            color: blue;
+            font-size: 1.3em;
+        }
+        #section5 div #input3{
+            height: 80px;
+        }
+        #section4 div div div{
+            display: flex;
+            justify-content: space-between;
+            color:white;
+            
+        }
+        #section4 div div progress{
+            width: 350px;
+            accent-color: blue;
+            
+        }
+        #section5 #divcontain{
+            display: flex;
+            color:white;
+            flex-direction: row;
+        }
+        #section5 #divaddp{
+            color:white;
+            align-self: flex-end;
+        }
+        #bt2{
+            position: fixed;       
+            top: 80vh;
+            left: 80vw; 
+            background-color: blue;    
+            
+        }
+        div #sp1 svg path:hover{
+    fill:blue;
+}
+div #sp2 svg path:hover{
+     fill:blue;
+}
+div #sp3 svg path:hover{
+    fill:blue;}
+        #bt2 button{
+            background-color: blue;
+        }
+        .fa-user-graduate{
+            font-size:72px;
+        }
+    .fa-computer{
+        font-size: 72px;
+    }
+    .fa-motorcycle{
+font-size: 72px;
+    }
+    .fa-music{
+        font-size: 72px;
+    }
+    .fa-dumbbell{
+        font-size: 72px;
+    }
+    footer{
+       background-color:gray;
+    }
+    </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<div id="bt2" ><button id="buttup" onClick = " document.getElementById ( 'section1' ).scrollIntoView ({ behavior : 'smooth' });"><a name="btotop">^</a></button></div>
+<body>
+    <nav>
+        <ul id="ul">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>SERVICE</li>
+            <li>SKILL</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+    <section id="section1">
+        <h1 id="h11">HELLO I AM AMANUEL SHEWA</h1>
+
+        <span><h1 id="GRADE11H1">&nbsp;I&nbsp;AM&nbsp;GRADE&nbsp;11&nbsp;WEB&nbsp;DESIGN&nbsp;STUDENT</h1></span>
+        <button >contact us</button>
+    </section>
+    <section id="section2">
+        <h1 id="abouth1">
+            ABOUT ME
+        </h1>
+        <div>
+            <img src="aman.jpg">
+            <p style="color:white;">
+                Hi, My Name is Amanuel Shewa.I am student of grade 11.I am web design and development student . Also I have interest on spritual matter.Because I believe This is the purpose why I am created.Additionaly my goal in education is to work on larg projects and constructions for the country .
+            </p>
+        </div>
+
+    </section>
+    <section id="section3">
+        <h1>MY SERVICES</h1>
+        <div>
+            <i class="fa-solid fa-user-graduate"></i>
+            <p>I am student.</p>
+            <i class="fa-solid fa-computer"></i>
+            <P>
+   I can develop simple wbsites by using html ,css and javascript .
+            </P>
+            <i class="fa-solid fa-music"></i>
+            <p>I can play some musical instruments such as piano and drums </p>
+          
+        </div>
+
+    </section>
+    <section id="section4">
+        <h1>MY CREATIVE SKILLS</h1>
+        <div>
+            <P style="color:white;">I have a littel knowledge on html ,css and javascript. </P>
+            <div><div><p>HTML</p><P>20%</P></div>
+                <progress max="100" value="20"></progress>
+            </div>
+            <div><div><p>CSS</p><P>10%</P></div>
+                <progress max="100" value="10"></progress></div>
+            <div><div><p>JAVASCRIPT</p><P>10%</P></div>
+                <progress max="100" value="10"></progress></div>
+            <div><div><p>PHP</p><P>0%</P></div>
+                <progress max="100" value="0"></progress></div>
+
+        </div>
+        
+
+    </section>
+    <section id="section5">
+        <h1>CONTACT</h1>
+        <div id="divcontain">
+        <div>
+            <input placeholder="Your Name">
+            <input placeholder="your email address">
+            <input placeholder="subjects">
+            <input id="input3" placeholder="Message">
+            <button>send Message</button>
+        </div>
+         <div id="divaddp">
+               <p id="addressp">please contact and support me,Just send me your subjects</p>
+               <address>
+                  <p>address</p>
+                  <p><span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue"><path d="M451.5-531.5Q440-543 440-560t11.5-28.5Q463-600 480-600t28.5 11.5Q520-577 520-560t-11.5 28.5Q497-520 480-520t-28.5-11.5ZM640-520q-17 0-28.5-11.5T600-560q0-17 11.5-28.5T640-600q17 0 28.5 11.5T680-560q0 17-11.5 28.5T640-520Zm160 0q-17 0-28.5-11.5T760-560q0-17 11.5-28.5T800-600q17 0 28.5 11.5T840-560q0 17-11.5 28.5T800-520Zm-2 400q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg></span>+251-915-95-04-43</p>
+                  <p><span><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue"><path d="M560-520h280v-200H560v200Zm140-50-100-70v-40l100 70 100-70v40l-100 70ZM80-120q-33 0-56.5-23.5T0-200v-560q0-33 23.5-56.5T80-840h800q33 0 56.5 23.5T960-760v560q0 33-23.5 56.5T880-120H80Zm556-80h244v-560H80v560h4q42-75 116-117.5T360-360q86 0 160 42.5T636-200ZM445-435q35-35 35-85t-35-85q-35-35-85-35t-85 35q-35 35-35 85t35 85q35 35 85 35t85-35ZM182-200h356q-34-38-80.5-59T360-280q-51 0-97 21t-81 59Zm149.5-291.5Q320-503 320-520t11.5-28.5Q343-560 360-560t28.5 11.5Q400-537 400-520t-11.5 28.5Q377-480 360-480t-28.5-11.5ZM480-480Z"/></svg></span>aman123@gmail.com</p     <div id="dicicon">
+     <span id="sp1">
+     <a href="t.me/amanuel">
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="40px" height="40px">
+  <circle cx="120" cy="120" r="120" fill="white"/>
+  <path fill="black" d="M183.1,67.6L44.2,128.3c-2.1,0.9-2.1,2.1,0.2,2.8l35.6,11.1l82.5-52c3.9-2.4,7.5-1.1,4.5,1.5l-66.9,60.3l-2.6,38.2c3.7,0,5.4-1.7,7.5-3.7l18-17.5l37.4,27.6c6.9,3.8,11.9,1.8,13.6-6.5l24.5-115.5C201.1,64.4,194,59.3,183.1,67.6z"/>
+</svg>
+</a>
+     </span>
+     <span id="sp3">
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40px" height="40px">
+  <path fill="black" d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+</svg>
+
+     </span>
+     </div>
+<style>
+
+
+</style>
+               </address>
+            </div>
+         </div>
+
+      </div>
+      </div>
+
+    </section>
+    <footer>
+        <h1 align="center" style="font-size: 1.3em; color: blue;">&copy;AMANUEL'S WEBSITE CopyRight RESERVED</h1>
+    </footer>
+    <script>
+     window.addEventListener('scroll', function(){
+        if(window.scrollY > 100){
+                    document.getElementById('ul').classList.add('scrolled');
+                }
+        else{
+                    document.getElementById('ul').classList.remove('scrolled');
+                }
+
+        }
+               
+            
+        );
+
+    </script>
+</body>
+</html>
